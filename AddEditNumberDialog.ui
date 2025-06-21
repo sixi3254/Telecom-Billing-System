@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+	<class>AddEditNumberDialog</class>
+	<widget class="QDialog" name="AddEditNumberDialog">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>400</width>
+				<height>300</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>添加/编辑电话号码</string>
+		</property>
+		<layout class="QVBoxLayout" name="verticalLayout">
+			<item>
+				<widget class="QGroupBox" name="groupBox">
+					<property name="title">
+						<string>电话号码信息</string>
+					</property>
+					<layout class="QFormLayout" name="formLayout">
+						<item row="0" column="0">
+							<widget class="QLabel" name="label">
+								<property name="text">
+									<string>电话号码:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="0" column="1">
+							<widget class="QLineEdit" name="numberLineEdit"/>
+						</item>
+						<item row="1" column="0">
+							<widget class="QLabel" name="label_2">
+								<property name="text">
+									<string>类型:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="1" column="1">
+							<widget class="QComboBox" name="typeComboBox"/>
+						</item>
+						<item row="2" column="0">
+							<widget class="QLabel" name="label_3">
+								<property name="text">
+									<string>服务类型:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="2" column="1">
+							<widget class="QComboBox" name="serviceTypeComboBox"/>
+						</item>
+						<item row="3" column="0">
+							<widget class="QLabel" name="label_4">
+								<property name="text">
+									<string>套餐:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="3" column="1">
+							<widget class="QLineEdit" name="planLineEdit"/>
+						</item>
+					</layout>
+				</widget>
+			</item>
+			<item>
+				<widget class="QDialogButtonBox" name="buttonBox">
+					<property name="orientation">
+						<enum>Qt::Horizontal</enum>
+					</property>
+					<property name="standardButtons">
+						<set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+					</property>
+				</widget>
+			</item>
+		</layout>
+	</widget>
+	<resources/>
+	<connections>
+		<connection>
+			<sender>buttonBox</sender>
+			<signal>accepted()</signal>
+			<receiver>AddEditNumberDialog</receiver>
+			<slot>accept()</slot>
+			<hints>
+				<hint type="sourcelabel">
+					<x>248</x>
+					<y>254</y>
+				</hint>
+				<hint type="destinationlabel">
+					<x>157</x>
+					<y>274</y>
+				</hint>
+			</hints>
+		</connection>
+		<connection>
+			<sender>buttonBox</sender>
+			<signal>rejected()</signal>
+			<receiver>AddEditNumberDialog</receiver>
+			<slot>reject()</slot>
+			<hints>
+				<hint type="sourcelabel">
+					<x>316</x>
+					<y>254</y>
+				</hint>
+				<hint type="destinationlabel">
+					<x>286</x>
+					<y>274</y>
+				</hint>
+			</hints>
+		</connection>
+	</connections>
+</ui>

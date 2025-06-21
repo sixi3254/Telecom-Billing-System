@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>LoginDialog</class>
+	<widget class="QDialog" name="LoginDialog">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>400</width>
+				<height>300</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>电信计费系统 - 登录</string>
+		</property>
+		<layout class="QVBoxLayout" name="verticalLayout">
+			<item>
+				<widget class="QLabel" name="label">
+					<property name="text">
+						<string>电信计费系统</string>
+					</property>
+					<property name="alignment">
+						<set>Qt::AlignCenter</set>
+					</property>
+					<property name="styleSheet">
+						<string notr="true">font-size: 20px; font-weight: bold;</string>
+					</property>
+				</widget>
+			</item>
+			<item>
+				<widget class="QLineEdit" name="usernameEdit">
+					<property name="placeholderText">
+						<string>请输入用户名</string>
+					</property>
+				</widget>
+			</item>
+			<item>
+				<widget class="QLineEdit" name="passwordEdit">
+					<property name="echoMode">
+						<enum>QLineEdit::Password</enum>
+					</property>
+					<property name="placeholderText">
+						<string>请输入密码</string>
+					</property>
+				</widget>
+			</item>
+			<item>
+				<layout class="QHBoxLayout" name="horizontalLayout">
+					<item>
+						<widget class="QCheckBox" name="rememberCheckBox">
+							<property name="text">
+								<string>记住用户名</string>
+							</property>
+						</widget>
+					</item>
+					<item>
+						<widget class="QCheckBox" name="showPasswordCheckBox">
+							<property name="text">
+								<string>显示密码</string>
+							</property>
+						</widget>
+					</item>
+				</layout>
+			</item>
+			<item>
+				<layout class="QHBoxLayout" name="horizontalLayout_2">
+					<item>
+						<widget class="QPushButton" name="loginButton">
+							<property name="text">
+								<string>登录</string>
+							</property>
+							<property name="styleSheet">
+								<string notr="true">padding: 8px;</string>
+							</property>
+						</widget>
+					</item>
+					<item>
+						<widget class="QPushButton" name="registerButton">
+							<property name="text">
+								<string>注册</string>
+							</property>
+							<property name="styleSheet">
+								<string notr="true">padding: 8px;</string>
+							</property>
+						</widget>
+					</item>
+				</layout>
+			</item>
+		</layout>
+	</widget>
+	<resources/>
+	<connections/>
+</ui>

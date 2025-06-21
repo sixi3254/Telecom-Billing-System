@@ -1,0 +1,202 @@
+[
+    {
+        "balance": 88.96,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "19332608824",
+                "plan": "家庭套餐",
+                "serviceType": 0,
+                "type": 2
+            }
+        ],
+        "password": "123",
+        "role": 3,
+        "username": "user1"
+    },
+    {
+        "balance": 354.26,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "13261073058",
+                "plan": "白金套餐",
+                "serviceType": 1,
+                "type": 0
+            }
+        ],
+        "password": "123",
+        "role": 3,
+        "username": "user2"
+    },
+    {
+        "balance": 238.82,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "15898537001",
+                "plan": "标准套餐",
+                "serviceType": 0,
+                "type": 2
+            },
+            {
+                "number": "17111659188",
+                "plan": "标准套餐",
+                "serviceType": 0,
+                "type": 2
+            }
+        ],
+        "password": "123",
+        "role": 0,
+        "username": "user3"
+    },
+    {
+        "balance": 442.75,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "18647016254",
+                "plan": "家庭套餐",
+                "serviceType": 1,
+                "type": 1
+            },
+            {
+                "number": "15536507944",
+                "plan": "白金套餐",
+                "serviceType": 1,
+                "type": 0
+            }
+        ],
+        "password": "123",
+        "role": 3,
+        "username": "user4"
+    },
+    {
+        "balance": 270.57,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "13715420527",
+                "plan": "白金套餐",
+                "serviceType": 1,
+                "type": 0
+            }
+        ],
+        "password": "123",
+        "role": 0,
+        "username": "user5"
+    },
+    {
+        "balance": 148.4,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "14424718629",
+                "plan": "经济套餐",
+                "serviceType": 0,
+                "type": 1
+            }
+        ],
+        "password": "123",
+        "role": 0,
+        "username": "user6"
+    },
+    {
+        "balance": 413.82,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "17528770531",
+                "plan": "标准套餐",
+                "serviceType": 0,
+                "type": 0
+            },
+            {
+                "number": "19206635703",
+                "plan": "标准套餐",
+                "serviceType": 0,
+                "type": 0
+            }
+        ],
+        "password": "123",
+        "role": 0,
+        "username": "user7"
+    },
+    {
+        "balance": 105.6,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "16294199961",
+                "plan": "标准套餐",
+                "serviceType": 1,
+                "type": 1
+            },
+            {
+                "number": "16166786702",
+                "plan": "标准套餐",
+                "serviceType": 0,
+                "type": 1
+            }
+        ],
+        "password": "123",
+        "role": 0,
+        "username": "user8"
+    },
+    {
+        "balance": 376.13,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "15755330464",
+                "plan": "经济套餐",
+                "serviceType": 0,
+                "type": 1
+            }
+        ],
+        "password": "123",
+        "role": 3,
+        "username": "user9"
+    },
+    {
+        "balance": 120.68,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+            {
+                "number": "16901243422",
+                "plan": "经济套餐",
+                "serviceType": 1,
+                "type": 2
+            },
+            {
+                "number": "16965072676",
+                "plan": "标准套餐",
+                "serviceType": 0,
+                "type": 0
+            }
+        ],
+        "password": "123",
+        "role": 0,
+        "username": "user10"
+    },
+    {
+        "balance": 0,
+        "familyChargeShare": 0,
+        "lastUpdated": "",
+        "numbers": [
+        ],
+        "password": "Admin123",
+        "role": 1,
+        "username": "admin"
+    }
+]

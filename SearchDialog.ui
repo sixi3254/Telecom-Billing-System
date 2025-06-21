@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+	<class>SearchDialog</class>
+	<widget class="QDialog" name="SearchDialog">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>800</width>
+				<height>600</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>全局搜索</string>
+		</property>
+		<layout class="QVBoxLayout" name="verticalLayout">
+			<item>
+				<widget class="QWidget" name="searchWidget" native="true">
+					<layout class="QHBoxLayout" name="horizontalLayout">
+						<item>
+							<widget class="QLineEdit" name="searchInput">
+								<property name="placeholderText">
+									<string>输入关键词进行搜索...</string>
+								</property>
+							</widget>
+						</item>
+						<item>
+							<widget class="QComboBox" name="scopeCombo"/>
+						</item>
+						<item>
+							<widget class="QPushButton" name="searchButton">
+								<property name="text">
+									<string>搜索</string>
+								</property>
+							</widget>
+						</item>
+						<item>
+							<widget class="QPushButton" name="exitButton">
+								<property name="text">
+									<string>退出</string>
+								</property>
+							</widget>
+						</item>
+					</layout>
+				</widget>
+			</item>
+			<item>
+				<layout class="QVBoxLayout" name="resultsLayout"/>
+			</item>
+		</layout>
+	</widget>
+	<resources/>
+	<connections/>
+</ui>
